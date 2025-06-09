@@ -24,6 +24,8 @@ springdoc:
   api-docs:
     enabled: false
 ---
+configserver:
+  name: Config Server está funcionando para ProductService
 eureka:
   client:
     enabled: false
