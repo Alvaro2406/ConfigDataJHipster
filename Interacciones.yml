@@ -34,7 +34,7 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
     service-url:
-      defaultZone: http://localhost:8090
+      defaultZone: http://localhost:8090/eureka/
     instance-info-replication-interval-seconds: 10
     registry-fetch-interval-seconds: 10
   instance:
